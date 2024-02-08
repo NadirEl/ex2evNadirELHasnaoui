@@ -1,0 +1,39 @@
+<!-- fragment_information.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camp Nou"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The stadium's maximum height is 48 metres, and it covers a surface area of 55,000 square metres (250 metres long and 220 metres wide). In accordance with UEFA stipulations, the playing area has been downsized to 105 metres x 68 metres. With a capacity of 99,354, it is now the biggest stadium in Europe."
+        android:padding="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/campnou" />
+
+    <Button
+        android:id="@+id/id_volvarmapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al mapa"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
